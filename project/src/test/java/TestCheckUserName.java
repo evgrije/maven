@@ -6,10 +6,9 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TestCheckUserName {
 
     @Test
- void testSetName(){
+    void testSetName(){
         User user = new User();
         user.setName("Vasya");
-
         assertEquals("Vasya", user.getName());
     }
 }
